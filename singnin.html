@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js" defer></script>
+</head>
+
+<body>
+    <div class="container1" style="margin-left: 80px; width: 400px;">
+        <div class="form-container1">
+            <h2>Sign In</h2>
+            <form onsubmit="Signup(event)">
+
+                <div class="form-control1">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-control1">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-control1">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="submit-btn">Sign In</button>
+                <h6 style="text-align: center; color: aqua; margin-top: 5px; font-size: 13px;">   click here go to new page <a href="./profile.html">login</a></h6>
+            </form>
+        </div>
+       
+    </div>
+
+<!-- //////////////////////////////////////////////////////////////////// -->
+
+
+    <!-- <div class="container" style="margin-left: 70px; width: 400px;">
+
+        <div class="form-container">
+            <h2>Log In</h2>
+            <form onsubmit="Login(event)">
+                <div class="form-control">
+                    <label for="login-email">Email</label>
+                    <input type="email" id="login-email" name="login-email" required>
+                </div>
+                <div class="form-control">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" name="login-password" required>
+                </div>
+                <button type="submit" class="submit-btn">Log In</button>
+
+                <button class="logout-btn" onclick="LogOut(event)">Log Out</button>   
+                  <button style="margin-top: 6px;" type="submit" class="submit-btn">Log In Again</button>
+                </form>
+        </div>
+    </div> -->
+<!-- /////////////////////////////////////////////////////////////////// -->
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="model" style="width: 400px; margin-right: 70px; margin-left:60px ;">
+        <h3 style="color: aquamarine; text-align: center;">Your Profile</h3>
+        <form id="editsprofile" onsubmit="userupdate(event)">
+
+            <input class="in" type="text" placeholder="your name" name="name">
+
+            <input class="in" type="text" placeholder="your email" name="email" required>
+
+            <input class="in" type="text" placeholder="your phone" name="phone">
+            <input class="in" type="text" placeholder="your age" name="age">
+
+
+            <input class="in" type="text" placeholder="your speciality" name="speciality">
+            <input class="in" type="text" placeholder="your portfolioURL" name="portfolioURL">
+            <button class="bt" >added</button>
+            </form>
+    </div> -->
+
+
+
+
+
+<!-- /////////////////////////////////////////////////////////////////////// -->
+
+<!-- 
+<DIV class="use" style="margin-right: -1px; width: 400px;margin-left: -40px;">
+    <img src="./OIP.jpeg" 
+    height="auto" id="propic"  width="100px"  alt="no-img" style="border-radius: 10%;">
+     <input type="file" accept="image/*" onchange="uploading(event)">
+     
+
+
+
+    <div >
+        <div class="userdetail" style=" text-align: center">
+            <H2> Userdetail</H2>
+
+        </div>
+        <div class="center" style=" text-align: center;">
+        </div>
+           </div>
+        </DIV> -->
+
+
+
+    <script src="./firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-storage.js"></script>
+
+
+
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyCv3tliVYETPiDI9ELhRA1LyEWO99_7BtY",
+            authDomain: "testing-app-cacf8.firebaseapp.com",
+            projectId: "testing-app-cacf8",
+            storageBucket: "testing-app-cacf8.appspot.com",
+            messagingSenderId: "221578730896",
+            appId: "1:221578730896:web:2decba9044042b61f46715",
+            measurementId: "G-6YW068B64J"
+        };
+
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+
+</body>
+
+</html>

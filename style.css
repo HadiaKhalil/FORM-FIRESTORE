@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  
+   body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  nav{
+      margin-left:650px;
+      margin-top: -400px;
+    /* flex: 1;
+    text-align: right; */
+  
+  }
+  nav ul {
+    display: inline-block;
+    list-style-type: none;
+  
+  
+  }
+  .btnn{
+      background-color: #61dafb;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      border-radius: 10px;
+      width: 100px;
+      height: 40px;
+  }
+  nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+  }
+  a{
+    text-decoration: none;
+    color: #555;
+  };
+  
+  .content{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .col-2{
+     flex-basis: 50%;
+    min-width: 300px; 
+  
+  }
+  
+  .col-2 h1{
+  
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+  }
+  
+  
+  
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #282c34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+}
+
+.hllo{
+     width: 93%;
+     margin-top: 3px;
+     padding: 12px;
+     font-size: 16px;
+     color: #fff;
+     background-color: #61dafb;
+     border: none;
+     border-radius: 6px;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+}
+.hllo:hover{
+    background-color: #45a049;
+}
+
+
+.form-container {
+    background-color: #1e222b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 90%;
+   
+ 
+    
+}
+.form-container1 {
+    background-color: #1e222b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    
+}
+.model{
+    background-color: #1e222b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 70%;
+    
+}
+
+h2 {
+    text-align: center;
+    color: #61dafb;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.form-control1 {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #61dafb;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 16px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #44505b;
+    border-radius: 4px;
+    background-color: #44505b;
+    color: #fff;
+}
+
+button.submit-btn
+ {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color:#45a049;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+.logout-btn{
+    margin-top: 10px;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color:rgb(131, 36, 7);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.bt{
+    margin-top: 7px;
+    width: 102%;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color:#45a049;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;  
+}
+.in{
+    margin-top: 3px;
+    width: 90%;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color:rgb(13, 221, 186);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.use{
+    background-color: #1e222b;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+ 
+}
+button.submit-btn:hover,
+button.logout-btn:hover {
+    background-color:#61dafb;
+}
+
+.bt:hover{
+    background-color:#61dafb;
+}
+
+
